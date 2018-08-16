@@ -1,0 +1,110 @@
+.nav{
+    
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    transition: 0.2s;
+}
+.nav:hover{
+    background-color: white;
+    color: black;
+}
+body{
+    background-color: #DEDCDB;
+    padding: 0px;
+    margin: 0px;
+}
+.berita{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.btn{ 
+   
+    
+    background-color: #162936;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+      margin-left: 20px;
+    
+    
+}
+
+.btn1{ 
+   
+    
+  
+    padding: 7px;
+    border: 2px solid #44449c;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+      margin-left: 20px;
+    
+     transition: 0.3s;
+}
+.btn1:hover{
+
+background-color:#44449c ;
+color: white
+
+}
+
+.video{
+    background-color: white;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 1px solid black;
+  
+}
+.url{
+    text-shadow: 1px 1px 1px red;
+    font-size: 20px;  
+    text-decoration: none;
+    color: black;
+}
+.gambar{
+    border: 4px solid black;
+    margin-right: 80px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.isi{
+    box-shadow: 1px 1px 1px black;
+    margin-right: 50px;
+    background-color: white;
+    margin-left:50px;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.center{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    width: 200px;
+}
+
+.animate{
+   animation: animate 2s;
+    opacity: 1;
+}
+@keyframes animate{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
